@@ -1,0 +1,7 @@
+
+t
+java:S2142<"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(䠹�
+s
+java:S2273;"^Move this call to "wait()" into a synchronized block to be sure the monitor on "this" is held.(磊M
+O
+java:S2274;":Remove this call to "wait" or move it into a "while" loop.(磊M

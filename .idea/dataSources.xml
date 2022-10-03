@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Test4Tele2" uuid="0a4ffd21-02dd-46ad-a5b2-070fc50304c8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/test4Tele2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sqlitesample.db" uuid="d42f9b3e-3e79-439a-9fae-c8cc399752cd">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/sqlitesample.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

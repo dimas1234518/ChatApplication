@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http:/www.thymeleaf.org">
+<head th:replace="fragments :: html_head(pageTitle='Chat Application - Home')" />
+<body>
+<div class="container text-center">
+	<div><h1>Chat</h1></div>
+	<div>
+		<br/>
+		<h4><a th:href="@{/welcome}">Continue to chat</a></h4>
+	</div>
+</div>
+</body>
+</html>
