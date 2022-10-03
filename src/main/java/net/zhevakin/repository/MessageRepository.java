@@ -11,7 +11,7 @@ import java.util.List;
 public interface MessageRepository extends JpaRepository<Message, Long> {
 
 
-    @Query("SELECT m FROM Message m where m.chat=:chat ORDER BY m.dateSend")
+      @Query("SELECT m FROM Message m where m.chat=:chat ORDER BY m.dateSend Desc")
     List<Message> findTopByChatsIs(Pageable pageable, Chat chat);
 
 }
