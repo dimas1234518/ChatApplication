@@ -22,7 +22,9 @@ public class MessageService {
 
     public List<Message> getMessage(Integer count, Chat chat) {
 
-         return messageRepository.findTopByChatsIs(PageRequest.of(0,count), chat);
+         return messageRepository.findTopByChatsIs(PageRequest.of(0,count), chat).stream()
+                                                                                        .sorted(Comparator.comparingLong(Message::getId))
+                                                                                        .collect(Collectors.toList());
 
     }
 
